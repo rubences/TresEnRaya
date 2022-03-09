@@ -66,7 +66,7 @@ def probar_fin_juego(tabla):
             print("El jugador {} ha ganado".format(situacion[0]))
             return True
 
-    if " " not in liste:
+    if " " not in lista:
         print("El juego se ha terminado en empate!")
         return True
 
